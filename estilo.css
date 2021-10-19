@@ -1,0 +1,188 @@
+body{font-family:'poppins',sans-serif;}
+#experience{
+    background: blueviolet;
+}
+h1{color: rgb(1, 3, 0);
+font-family: sans-serif;}
+
+#product-overview{ 
+background: url("fondo01.jpg");
+width: 100%;
+height: 530px;
+padding: 10px;}
+
+.section-title{ color: fuchsia;
+font-family: inherit;
+text-align: center;}
+
+.plan{
+    background:rgb(129, 110, 240);
+    text-align:center ;
+    padding: 16px;
+    margin:8px ;
+    display: inline-block;
+    width: 29%;
+    vertical-align: middle;
+}
+.plan--highlighted {
+    background: fuchsia;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(129, 110, 240);
+
+}
+.plan__annotation{
+    background: white;
+    color: fuchsia;
+    border:1px solid black ;
+    padding: 8px;
+    box-shadow:2px 2px 2px 2px rgb(129, 110, 240);
+    border-radius: 8px;
+}
+.plan__title{
+    color:rgb(250, 209, 98) ;
+}
+.plan__price{
+    color:rgb(207, 252, 48) ;
+}
+.plan__features{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature{
+    margin: 8px 0px;
+}
+.button{
+    background:rgb(207, 252, 48) ;
+    color: black;
+    font: inherit;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover,
+.button:active{
+    background: black;
+    color: rgb(207, 252, 48);
+}
+#key-features {
+    background:rgb(250, 209, 98);
+    margin-top: 80px;
+    padding: 16px;
+
+}
+#key-features .section-title { 
+    color: rgb(0, 0, 0);
+    margin: 32px;
+}
+.key-features__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.key-feature{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+.key-feature__image{
+    background: fuchsia;
+    width: 128px;
+    height: 128px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: auto;
+}
+.key-feature__description{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.main-header{
+    width: 100%;
+    background:fuchsia;
+    padding: 8px 16px;
+}
+
+.main-header>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header__brand{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-nav__item{
+    display: inline-block;
+    margin: 0 16px;
+} 
+.main-nav__item a{
+    text-decoration: none;
+    color: rgb(5, 0, 3);
+    font-weight: bold;
+    padding: 3px 0;
+   
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active { 
+    color:fuchsia;
+    border-bottom: 5px solid white;
+}
+.main-nav__item--cta a {
+    color: rgb(0, 0, 0);
+    background: rgb(207, 252, 48);
+    padding: 8px 16px;
+    border-radius: 8px;
+
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active
+{color:rgb(207, 252, 48) ;
+    background: rgb(129, 110, 240);
+    border: none;
+
+}
+.main-footer{
+    background: black;
+    padding: 32px ;
+    margin-top: 48px;
+}
+.main-footer__links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.main-footer__link{
+    display: inline-block;
+    margin: 0 16px;
+}
+.main-footer__link a{
+    color: rgb(207, 252, 48);
+    text-decoration: none;
+}
+.main-footer__link a:hover,
+.maion-footer__link a:active{
+    color:rgb(129, 110, 240) ;
+
+}
