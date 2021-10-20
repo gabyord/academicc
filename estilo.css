@@ -1,4 +1,4 @@
-body{font-family:'poppins',sans-serif;}
+
 #experience{
     background: blueviolet;
 }
@@ -14,7 +14,11 @@ padding: 10px;}
 .section-title{ color: fuchsia;
 font-family: inherit;
 text-align: center;}
-
+.plan__list{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 .plan{
     background:rgb(129, 110, 240);
     text-align:center ;
@@ -53,21 +57,7 @@ text-align: center;}
 .plan__feature{
     margin: 8px 0px;
 }
-.button{
-    background:rgb(207, 252, 48) ;
-    color: black;
-    font: inherit;
-    border: 1px solid black;
-    padding: 8px;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.button:hover,
-.button:active{
-    background: black;
-    color: rgb(207, 252, 48);
-}
+
 #key-features {
     background:rgb(250, 209, 98);
     margin-top: 80px;
@@ -102,87 +92,4 @@ text-align: center;}
     font-weight: bold;
     color: rgb(255, 255, 255);
     font-size: 20px;
-}
-.main-header{
-    width: 100%;
-    background:fuchsia;
-    padding: 8px 16px;
-}
-
-.main-header>div{
-    display: inline-block;
-    vertical-align: middle;
-}
-.main-header__brand{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 22px;
-}
-.main-nav{
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 74px);
-    vertical-align: middle;
-}
-
-.main-nav__items{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.main-nav__item{
-    display: inline-block;
-    margin: 0 16px;
-} 
-.main-nav__item a{
-    text-decoration: none;
-    color: rgb(5, 0, 3);
-    font-weight: bold;
-    padding: 3px 0;
-   
-}
-
-.main-nav__item a:hover,
-.main-nav__item a:active { 
-    color:fuchsia;
-    border-bottom: 5px solid white;
-}
-.main-nav__item--cta a {
-    color: rgb(0, 0, 0);
-    background: rgb(207, 252, 48);
-    padding: 8px 16px;
-    border-radius: 8px;
-
-}
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active
-{color:rgb(207, 252, 48) ;
-    background: rgb(129, 110, 240);
-    border: none;
-
-}
-.main-footer{
-    background: black;
-    padding: 32px ;
-    margin-top: 48px;
-}
-.main-footer__links{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.main-footer__link{
-    display: inline-block;
-    margin: 0 16px;
-}
-.main-footer__link a{
-    color: rgb(207, 252, 48);
-    text-decoration: none;
-}
-.main-footer__link a:hover,
-.maion-footer__link a:active{
-    color:rgb(129, 110, 240) ;
-
 }
