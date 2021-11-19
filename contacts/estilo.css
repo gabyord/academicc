@@ -1,0 +1,28 @@
+
+
+
+.ubication_container{
+    
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.information{
+        background:rgb(207, 252, 48) ;
+        text-align:center ;
+        padding: 16px;
+        margin:8px ;
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle;
+        border-radius: 1rem;
+
+}
+
+.information_ubication{
+    margin: 8px 0px;
+}
+
+   
