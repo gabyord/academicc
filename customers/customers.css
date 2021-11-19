@@ -58,4 +58,22 @@
 .testimonial__text{
     margin: 3px;
 }
+.main-footer{
+    background-color: rgb(129, 110, 240);
+}
+.social-net{
+    text-align: center;
+}
+
+.social-icon{
+    display: inline-block;
+    width: 2rem;
+     height:2rem;
+    background-color: fuchsia;
+    margin: 1rem;
+    border-radius: .2rem;
+
+
+}
+
 
